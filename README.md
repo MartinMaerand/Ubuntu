@@ -4,10 +4,10 @@ network:
   ethernets:
     ens18:
       addresses:
-        [192.168.40.228/20]
+        [masinaIP/prefix]
       routes:
         - to: default
-          via: 192.168.32.1
+          via: lüüsi IP ilma prefixita
           metric: 100
       nameservers:
         search: [local]
