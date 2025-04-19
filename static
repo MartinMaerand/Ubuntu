@@ -10,6 +10,5 @@ network:
           via: gateway
           metric: 100
       nameservers:
-        search: [local]
         addresses: [127.0.0.1]
       dhcp4: false
