@@ -7,7 +7,7 @@ network:
         [sinumasinaIP/prefix]
       routes:
         - to: default
-          via: gateway
+          via: gateway aadress
           metric: 100
       nameservers:
         addresses: [127.0.0.1]
